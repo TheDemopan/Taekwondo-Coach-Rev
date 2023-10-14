@@ -24,8 +24,8 @@ while True:
                 cx, cy = int(lm.x * w), int(lm.y * h)
                 print(id, cx, cy)
             mpDraw.draw_landmarks(img, handLms, mpHands.HAND_CONNECTIONS,
-                                  mpDraw.DrawingSpec(color=(245, 117, 66), thickness=2, circle_radius=1),
-                                  mpDraw.DrawingSpec(color=(245, 66, 230), thickness=2, circle_radius=2))
+                                  mpDraw.DrawingSpec(color=(25, 117, 66), thickness=2, circle_radius=1),
+                                  mpDraw.DrawingSpec(color=(255, 255, 255), thickness=2, circle_radius=2))
 
     cTime = time.time()
     fps = 1/(cTime - pTime)
@@ -33,5 +33,5 @@ while True:
 
     cv2.putText(img, str(int(fps)), (10, 70), cv2.FONT_HERSHEY_PLAIN, 3, (255, 120, 120), 3)
 
-    cv2.imshow("How to make a fist", img)
+    cv2.imshow("Learning to make a fist", img)
     cv2.waitKey(1)
