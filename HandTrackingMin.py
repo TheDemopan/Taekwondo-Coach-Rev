@@ -35,4 +35,4 @@ while True:
 
     cv2.imshow("Learning to make a fist", img)
     cv2.waitKey(1)
-    print("test")
+
