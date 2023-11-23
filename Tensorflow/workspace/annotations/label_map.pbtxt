@@ -1,0 +1,12 @@
+item { 
+	name:'Correct'
+	id:1
+}
+item { 
+	name:'Tuck in your thumb'
+	id:2
+}
+item { 
+	name:'Your thumb should be under your fingers'
+	id:3
+}

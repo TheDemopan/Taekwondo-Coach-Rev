@@ -1,0 +1,26 @@
+<annotation>
+	<folder>raw-capture</folder>
+	<filename>correct-4.jpg</filename>
+	<path>C:\Users\User\Documents\GitHub\Taekwondo-Coach\Tensorflow\workspace\images\raw-capture\correct-4.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>480</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Correct</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>135</xmin>
+			<ymin>202</ymin>
+			<xmax>336</xmax>
+			<ymax>384</ymax>
+		</bndbox>
+	</object>
+</annotation>
